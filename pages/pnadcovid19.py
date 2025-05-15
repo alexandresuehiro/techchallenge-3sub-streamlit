@@ -15,7 +15,8 @@ with st.container():
             st.subheader(":blue[O Trabalho do IBGE]", divider="blue")
             st.markdown(
                 """
-    Neste canal, o IBGE reúne as iniciativas realizadas e as ações em desenvolvimento em relação a seus estudos e pesquisas para apoiar os esforços no combate à Covid-19.
+    
+    No site do Pnad Covid19, o IBGE reúne as iniciativas realizadas e as ações em desenvolvimento em relação a seus estudos e pesquisas para apoiar os esforços no combate à Covid-19.
 
 No novo cenário vivido pelo País, torna-se fundamental a rápida geração de informações que possam basear e sustentar decisões dos segmentos de governo e da sociedade civil, para que possamos prosseguir no enfrentamento da pandemia e contribuir para o bem comum.
 

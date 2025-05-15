@@ -22,31 +22,14 @@ st.header(f":orange[{TITULO_PRINCIPAL}]")
 st.subheader(":blue[Objetivo]", divider="blue")
 st.markdown(
     """
-    Este trabalho tem por finalidade analisar o desenvolvimento dos jovens da ONG Passos Mágicos, que recebem ajuda psicopedagógica, atividades e bolsas de estudo. Propomos a analisar termos e fontes de dados para implementar processos de Machine Learning que possam checar cenários de sucesso ou indicativos de um caminho. Com estes resultados, vamos exibi-los via Streamlit.
-
-    Considerando as várias perguntas que foram feitas durante algumas lives com professores e o senhor Dimitri da Passos Mágicos, teremos como foco responder e analisar alguns cenários:
+    Este trabalho tem por finalidade analisar uma faixa de meses do ano de 2020 para analisar os impactos da Covid-19 na população brasileira usando os dados disponíveis no site do IBGE: https://covid19.ibge.gov.br/pnad-covid/
+    Tem como intenção auxiliar os médicos a responder algumas perguntas como:
     
-    O que precisamos analisar: 
-    * Quais indicadores cooperaram mais para o atual cenário?
-    * Seria algum fator psicológico ou acadêmico muito relevante? Algum fator de engajamento?
-    * O que poderia ser feito para melhorar isso? 
-    * O que poderia ser feito para adequar comparações entre a Passos Mágicos e outros índices públicos de educação?
+    * Quais são os principais sintomas?
+    * Qual é o maior público atingido pela doença?
+    * Como o trabalho presencial afetou os casos?
+    * Quais são as características do comportamento da população?
     """
-)
-
-st.subheader(
-    ":blue[Sobre a Passos Mágicos]",
-    divider="blue",
-)
-st.markdown(
-    """
-    Nossa história
-    A Associação Passos Mágicos tem uma trajetória de 30 anos de atuação, trabalhando na transformação da vida de crianças e jovens de baixa renda os levando a melhores oportunidades de vida.
-
-    A transformação, idealizada por Michelle Flues e Dimetri Ivanoff, começou em 1992, atuando dentro de orfanatos, no município de Embu-Guaçu.
-
-    Em 2016, depois de anos de atuação, decidem ampliar o programa para que mais jovens tivessem acesso a essa fórmula mágica para transformação que inclui: educação de qualidade, auxílio psicológico/psicopedagógico, ampliação de sua visão de mundo e protagonismo. Passaram então a atuar como um projeto social e educacional, criando assim a Associação Passos Mágicos.
-"""
 )
 
 
@@ -54,15 +37,9 @@ st.markdown(
 st.subheader(":blue[Metodologia]", divider="blue")
 st.markdown(
     """
-    Usando a base de dados provida, referente ao período 2020-2022, fizemos uma análise inicial sobre o conteúdo para entender o que a Passos Mágicos observa em seus jovens. A partir desse ponto, consideramos o que ocorreu durante o período que poderia influenciar nos resultados achados.
-    Deixamos como possibilidade considerar alguns indicadores como entrada para analisar os cenários e o que seria um "resultado esperado de sucesso do trabalho".
-    Para facilitar as análises, deixamos a possibilidade de escolher alguns modelos de Machine Learning:
-    1. Regressão Linear (Linear Regression);
-    2. Árvore de Decisão por Classificação (Decision Tree - Classification)
-    3. Random Forest por Classificação (Random Forest - Classification)
-    4. Regressão Logística (Logistic Regression);
-    5. Árvore de Decisão por Regressão (Decision Tree - Regression)
-    6. Random Forest por Regressão (Random Forest - Regression)
+
+    Usando a base de dados provida, referente ao período 2020, fizemos uma análise inicial sobre o conteúdo para entender os impactos da Covid-19 sobre a população brasileira ao verificar possíveis estratos da sexo, ocupação, faixa de renda, escolaridade etc.
+	A partir disso, esperamos ter um cenário mais claro que responda as questões acima.
  """
 )
 #>>>>>>> f36f782 (Initial commit)
