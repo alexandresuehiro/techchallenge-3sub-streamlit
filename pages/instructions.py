@@ -25,15 +25,7 @@ with st._main:
         st.subheader("Repositórios do projeto")
         st.link_button(
             "Repositório Streamlit",
-            "https://github.com/alexandresuehiro/techchallenge-5-streamlit",
-            help=None,
-            type="secondary",
-            disabled=False,
-            use_container_width=False,
-        )
-        st.link_button(
-            "Repositório Jupyter Notebook",
-            "https://github.com/alexandresuehiro/Postgrad_FIAP_3DTAT/tree/main/techchallenge-5",
+            "https://github.com/alexandresuehiro/techchallenge-3sub-streamlit",
             help=None,
             type="secondary",
             disabled=False,
