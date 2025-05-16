@@ -29,33 +29,24 @@ with st.container():
         """
         Nesta sessão de análise, detalharemos um pouco sobre: 
         
-            1.  Perfil dos Estudantes: análise de idade, tipo de escola, valor de INDE etc
-            2.  Análise dos Indicadores por Pedra: um escrutínio sobre a relevância de cada Indicador e o peso sobre o perfil das pedras
-            3.  Mapa de Correlação de Indicadores: mostra como os indicadores têm correlação, ou seja, influencia um ao outro
-            4.  Análise de Transição de Pedras: usar a mudança de pedras dos jovens para analisar como comportaram ao longo dos anos
-            5.  Ponto de Virada 2022
-            6.  Análise do Ponto de Virada 2022 = Sim
+            1.  Principais Sintomas ao longo das semanas
+            2.  Públicos atingidos pela doença
+            3.  Trabalho Presencial x Trabalho Remoto: existe influência na propagação?
+            4.  Hábitos da população na pandemia
     """
     )
+    
+    st.header(":blue[Principais Sintomas ao longo das semanas]", divider="blue")
+    st.subheader('Sintomas mais comuns apresentados') 
+    st.markdown(
+                """
+                    De acordo com as informações obtidas da base de dados, grande parte dos avaliados apresentou "Algum Sintoma", que pode ser algo fora dos sintomas mais comuns.
+                    No caso dos sintomas mais comuns, temos o gráfico abaixo mostrando a evolução dos sintomas nas semanas mapeadas.
+                """)
 
-    tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs(
-        tabs=[
-#            "Sobre Indicadores de Avaliação",
-            "Perfil dos Estudantes",
-            "Análise dos Indicadores por Pedra",
-            "Mapa de Correlação de Indicadores",
-            "Análise de Transição de Pedras",
-            "Ponto de Virada 2022",
-            "Análise do Ponto de Virada 2022 = Sim"
-        ]
-    )
-
-
-    PerfilEstudantes(tab1)
-    AnaliseIndicadoresPorPedra(tab2)
-    MapaCorrelacaoIndicadores(tab3)
-    AnaliseTransicaoPedras(tab4)
-    PontoVirada2022(tab5)
-    AnalisePontoVirada2022Sim(tab6)
-
- 
+    st.image('assets/imgs/analise_sintomas_semanal.png')
+    st.markdown(
+                """
+                        A quantidade de sintomas reduziu com o passar do tempo.
+                """) 
+    
