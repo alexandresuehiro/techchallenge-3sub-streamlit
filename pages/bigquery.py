@@ -15,7 +15,7 @@ with st.container():
             st.subheader(":blue[Queries usadas]", divider="blue")
             st.markdown(
                 """
-    
+                    st.image('assets/imgs/02_query_bigquery.png')
     
                 """)
 
