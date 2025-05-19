@@ -18,5 +18,5 @@ with st.container():
                     
     
                 """)
-            st.image('assets/imgs/02_query_bigquery.png')
+            st.image('assets/imgs/03_query_bigquery.png')
 
